@@ -9,3 +9,14 @@
       Log 'name' value.
 
 */
+
+let varName = "Enma";
+
+
+function updateValue(value){
+  varName = value;
+  return varName;
+}
+console.log(updateValue("Lana del Rey"));
+console.log(updateValue(true));
+console.log(updateValue(28));
