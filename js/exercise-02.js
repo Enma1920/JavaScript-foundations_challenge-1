@@ -9,8 +9,9 @@ let varExample;
 varExample = "Moo!";
 console.log(varExample);
 
-const varExample2; /*you can't declare a const variable without initializing it.
-                    constant variable does not have undefined value, therefore if it's not inizialized it will break*/
+//const varExample2; 
+/*you can't declare a const variable without initializing it.
+constant variable does not have undefined value, therefore if it's not inizialized it will break*/
 console.log(varExample2);
 
 varExample2 = "Moo!"; 
