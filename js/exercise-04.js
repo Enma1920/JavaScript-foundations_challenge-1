@@ -8,15 +8,16 @@
 
     Once you see the results, write in a comment why it works that way
 */
+
 true && console.log("moo"); 
 /* output: moo
 Since we have a true boolean value and it executes console.log(), therefore "moo" is printed to the console
 */
+
 false && console.log("moo moo?"); 
 /* output: false
-Since the left operand is a false boolean value and the console.log() it is executed,
-so false AND true = false, it will print to the console false
-
+In this case, the first expression is false, so the second expression will not be evaluated,
+because if the first expression is false, no matter what the second expression is, the result of the logical operation will be false.
 */
 
 true || console.log("hello friend");
@@ -24,7 +25,6 @@ true || console.log("hello friend");
 The left operand is a true boolean value and console.log() it is not executed
 therefore it will print true
 */
-
 
 false || console.log("bye friend");
 /* output: bye friend
