@@ -16,6 +16,6 @@ const constantUndefined = undefined;
 
 console.log("String:", constantString);
 console.log("Number:", constantNumber);
-console.log("Boolean:", constantBoolean );
+console.log("Boolean:", constantBoolean);
 console.log("Null:", constantNull);
 console.log("Undefined:", constantUndefined);
