@@ -20,7 +20,7 @@ if (age < 3) {
 // as the second condition is executed since it's true, and it follows a vertical code, therefore, once a condition it's executed
 // it's stops and it doesn't verify the rest even if they are true, because it already enters in a condition.
 // A possible solution it's to use else if conditions that also verifies that are not in the range of the previous or the following conditions
-// like this: 
+// like this:
 /*
 else if (age >= 3 && age < 13) {
   console.log("You are in elementary school, kid.");
