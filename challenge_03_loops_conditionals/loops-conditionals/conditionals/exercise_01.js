@@ -7,3 +7,15 @@
 
     HINT: modulus operator ( % ) is your friend
 */
+
+function Even_Odd(number){
+    if(number % 2 == 0){
+        console.log(number+ " is even");
+    }
+    else{
+        console.log(number+" is odd");
+    }
+}
+
+console.log(Even_Odd(42));
+console.log(Even_Odd(5));
