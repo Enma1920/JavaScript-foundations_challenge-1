@@ -3,14 +3,14 @@
     
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
-for (let num = 10; num <= 40; num++) {
-  if (num % 2 == 0) {
-    console.log(num);
+for (let number = 10; number <= 40; number++) {
+  if (number % 2 == 0) {
+    console.log(number);
   }
 }
 
-for (let num = 10; num <= 40; num++) {
-  if (num % 2 != 0) {
-    console.log(num);
+for (let number = 10; number <= 40; number++) {
+  if (number % 2 != 0) {
+    console.log(number);
   }
 }

@@ -8,7 +8,7 @@
     HINT: modulus operator ( % ) is your friend
 */
 
-function Even_Odd(number) {
+function evenOdd(number) {
   if (number % 2 == 0) {
     console.log(number + " is even");
   } else {
@@ -16,5 +16,5 @@ function Even_Odd(number) {
   }
 }
 
-console.log(Even_Odd(42));
-console.log(Even_Odd(5));
+evenOdd(42);
+evenOdd(5);

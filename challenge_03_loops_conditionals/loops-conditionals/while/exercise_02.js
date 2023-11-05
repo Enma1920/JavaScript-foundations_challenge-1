@@ -18,19 +18,19 @@
     You made it!
     All, done!
 */
-let i = 1;
-while (i <= 100) {
-  if (i % 10 == 0) {
-    if (i != 50) {
-      console.log("Checkpoint! ", i);
+let index = 1;
+while (index <= 100) {
+  if (index % 10 == 0) {
+    if (index != 50) {
+      console.log("Checkpoint! ", index);
     }
   }
-  if (i == 50) {
+  if (index == 50) {
     console.log("Half way there!");
-  } else if (i == 100) {
+  } else if (index == 100) {
     console.log("You made it!");
   }
-  i++;
+  index++;
 }
 
 console.log("All, done!");

@@ -8,11 +8,11 @@
     HINT1: Be careful for an infinite loop!
 */
 let loggedIn = false;
-let i = 0;
+let index = 0;
 while (!loggedIn) {
   console.log("Incorrect login credentials");
-  i++;
-  if (i == 3) {
+  index++;
+  if (index == 3) {
     loggedIn = true;
   }
 }
