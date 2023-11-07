@@ -10,10 +10,10 @@
 
 function evenOdd(number) {
   let result;
-  if (number % 2 == 0) {
-    result = "even";
+  if (number % 2 === 0) {
+    result = number + " is even";
   } else {
-    result = "odd";
+    result = number + " is odd";
   }
   return result;
 }

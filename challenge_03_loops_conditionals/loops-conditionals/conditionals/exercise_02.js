@@ -41,3 +41,21 @@ const howOldAreYou = function (age) {
   return "You're just a baby!";
 };
 
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Spot the bug 🐞 Program ---");
+
+for (let iteration = 0; iteration < 5; iteration++) {
+  const age = Math.floor(Math.random() * 20);
+
+  const result = howOldAreYou(age);
+  console.log(`You are ${age}: ${result}`);
+}
+
+const ageAsNull = null;
+console.log(howOldAreYou(ageAsNull));
+
+console.log("--- Spot the bug 🐞 complete ---");
+
