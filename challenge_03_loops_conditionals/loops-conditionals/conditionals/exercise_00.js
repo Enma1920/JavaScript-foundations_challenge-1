@@ -10,9 +10,9 @@
 */
 function animalProgram(animal) {
   console.log("--- Animal Checker Program ---");
-  if (animal == "cat") {
+  if (animal === "cat") {
     console.log("Meow!");
-  } else if (animal == "dog") {
+  } else if (animal === "dog") {
     console.log("Woof!");
   } else {
     console.log("Must be an alien");

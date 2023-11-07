@@ -21,12 +21,23 @@ if (age < 3) {
 // it's stops and it doesn't verify the rest even if they are true, because it already enters in a condition.
 // A possible solution it's to use else if conditions that also verifies that are not in the range of the previous or the following conditions
 // like this:
-/*
-else if (age >= 3 && age < 13) {
-  console.log("You are in elementary school, kid.");
-} else if (age >= 13 && age < 18) {
-  console.log("Nice, you're a teenager!");
-} else if (age >= 18) {
-  console.log("Most places consider you an adult.");
-}
-*/
+const howOldAreYou = function (age) {
+  if (typeof age !== "number") {
+    return "What? How did this happen!?";
+  }
+
+  if (age >= 18) {
+    return "Most places consider you an adult.";
+  }
+
+  if (age >= 13) {
+    return "Nice, you're a teenager!";
+  }
+
+  if (age >= 3) {
+    return "You are in elementary school, kid.";
+  }
+
+  return "You're just a baby!";
+};
+

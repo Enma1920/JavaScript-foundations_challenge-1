@@ -9,12 +9,14 @@
 */
 
 function evenOdd(number) {
+  let result;
   if (number % 2 == 0) {
-    console.log(number + " is even");
+    result = "even";
   } else {
-    console.log(number + " is odd");
+    result = "odd";
   }
+  return result;
 }
 
-evenOdd(42);
-evenOdd(5);
+console.log(evenOdd(42));
+console.log(evenOdd(5));
