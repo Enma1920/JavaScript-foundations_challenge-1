@@ -12,7 +12,7 @@ let index = 0;
 while (!loggedIn) {
   console.log("Incorrect login credentials");
   index++;
-  if (index == 3) {
+  if (index === 3) {
     loggedIn = true;
   }
 }

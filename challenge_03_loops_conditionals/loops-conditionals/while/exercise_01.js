@@ -5,7 +5,7 @@
 */
 let indexWhile = 10;
 while (indexWhile <= 40) {
-  if (indexWhile % 2 == 0) {
+  if (indexWhile % 2 === 0) {
     console.log(indexWhile);
   }
   indexWhile++;
@@ -13,7 +13,7 @@ while (indexWhile <= 40) {
 
 indexWhile = 10;
 while (indexWhile <= 40) {
-  if (indexWhile % 2 != 0) {
+  if (indexWhile % 2 !== 0) {
     console.log(indexWhile);
   }
   indexWhile++;

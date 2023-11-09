@@ -19,15 +19,16 @@
     All, done!
 */
 for (let index = 1; index <= 100; index++) {
-  if (index % 10 == 0) {
-    if (index != 50) {
-      console.log("Checkpoint! ", index);
+  let result = "Checkpoint! ";
+  if( index%10===0){
+    if(index === 50){
+      result = "Half way there!";
     }
+    if(index===100){
+      result = "You made it!";
+    }  
+    console.log(result);
   }
-  if (index == 50) {
-    console.log("Half way there!");
-  } else if (index == 100) {
-    console.log("You made it!");
-  }
+  
 }
 console.log("All, done!");
