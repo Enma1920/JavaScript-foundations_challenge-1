@@ -9,9 +9,17 @@
 */
 
 function evenOdd(number) {
+<<<<<<< HEAD
   let result= number + " is odd";;
   if (number % 2 === 0) {
     result = number + " is even";
+=======
+  let result;
+  if (number % 2 === 0) {
+    result = number + " is even";
+  } else {
+    result = number + " is odd";
+>>>>>>> 420770f (UPDATE JSON)
   }
   return result;
 }
