@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   "name": "javascript-foundations_challenge-1",
   "version": "1.0.0",
   "description": "<figure style=\"text-align: center\">    <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png\" alt=\"DOM Tree\" width=\"100\" />    <figcaption>JavaScript</figcaption> </figure>",
@@ -32,6 +31,6 @@
     "devDependencies": {
       "prettier": "3.0.3"
     }
-  }
   
->>>>>>> 36ee0e1 (UPDATE folder structure)
+  
+
