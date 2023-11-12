@@ -58,4 +58,3 @@ const ageAsNull = null;
 console.log(howOldAreYou(ageAsNull));
 
 console.log("--- Spot the bug 🐞 complete ---");
-

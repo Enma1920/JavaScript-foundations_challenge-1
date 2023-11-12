@@ -8,5 +8,5 @@
 */
 for (let index = 1; index <= 10; index++) {
   const randomNumber = Math.floor(Math.random() * 10) + 1;
-  randomNumber>=5 ? console.log("Logged In!"):console.log("Logged Out!");
+  randomNumber >= 5 ? console.log("Logged In!") : console.log("Logged Out!");
 }

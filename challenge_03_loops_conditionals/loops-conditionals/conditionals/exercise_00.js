@@ -9,19 +9,16 @@
     8. Change animal to different values to make sure it works in all cases
 */
 function animalProgram(animal) {
-
   let message = "Must be an alien";
 
   if (animal === "cat") {
     message = "Meow!";
-  } 
+  }
   if (animal === "dog") {
     message = "Woof!";
-  } 
+  }
   return message;
-  
 }
-
 
 console.log("--- Animal Checker Program ---");
 console.log(animalProgram("dog"));

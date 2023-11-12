@@ -20,15 +20,14 @@
 */
 for (let index = 1; index <= 100; index++) {
   let result = "Checkpoint! ";
-  if( index%10===0){
-    if(index === 50){
+  if (index % 10 === 0) {
+    if (index === 50) {
       result = "Half way there!";
     }
-    if(index===100){
+    if (index === 100) {
       result = "You made it!";
-    }  
+    }
     console.log(result);
   }
-  
 }
 console.log("All, done!");

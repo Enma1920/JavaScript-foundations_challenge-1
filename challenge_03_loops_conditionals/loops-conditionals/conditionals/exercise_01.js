@@ -9,7 +9,7 @@
 */
 
 function evenOdd(number) {
-  let result= number + " is odd";;
+  let result = number + " is odd";
   if (number % 2 === 0) {
     result = number + " is even";
   }
