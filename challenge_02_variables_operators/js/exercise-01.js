@@ -12,8 +12,7 @@
 
 let varName = "Enma";
 
-
-function updateValue(value){
+function updateValue(value) {
   varName = value;
   return varName;
 }
